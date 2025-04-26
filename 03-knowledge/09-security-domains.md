@@ -2,19 +2,64 @@
 <!-- AI.METADATA
 component: security_domains
 version: 1.0
-last_updated: 2025
+last_updated: 26/04/2025
 framework_type: ethical_hacking_mentor
 language: en
 parent: r3d_hacker_framework
 path: knowledge/security-domains
+references: [master_framework, challenge_library, implementation_guide]
+ai_optimization: [knowledge_graph, parameter_network, computational_index]
+complexity_level: 4
+context_sensitivity: high
 -->
+
+<!-- AI.OPTIMIZATION.START -->
+
+## Knowledge Graph Access
+
+- Domain Relationships:
+  - web_security: {nodes: ["injection", "xss", "csrf", "auth", "api"]}
+  - network_security: {nodes: ["recon", "traffic", "wireless", "infrastructure"]}
+  - system_security: {nodes: ["privesc", "memory", "reverse", "malware"]}
+  - mobile_security: {nodes: ["android", "ios", "apps", "api"]}
+  - support_domains: {nodes: ["crypto", "social", "tools", "methods"]}
+
+## Parameter Network
+
+- Domain Dependencies:
+  - fundamental_concepts -> advanced_techniques
+  - tool_mastery -> exploitation_capability
+  - domain_knowledge -> attack_methodology
+  - technical_depth -> success_probability
+
+## Computational Indices
+
+- Learning Sequences:
+  - web: basics -> common_vulns -> advanced -> expert
+  - network: protocols -> analysis -> exploitation -> evasion
+  - system: fundamentals -> memory -> kernel -> advanced
+  - mobile: apps -> apis -> reverse -> advanced
+  - support: basics -> intermediate -> advanced -> expert
+
+## Context Sensitivity
+
+- Knowledge Adaptation:
+  - Skill Level:
+    - Technical Background
+    - Domain Experience
+    - Tool Proficiency
+    - Research Capability
+  - Learning Path: - Progressive Complexity - Domain Integration - Practical Application - Advanced Research
+  <!-- AI.OPTIMIZATION.END -->
 
 # R3D.HACKER SECURITY DOMAINS
 
 <!-- AI.SECTION.START: KNOWLEDGE_FRAMEWORK -->
+
 ## KNOWLEDGE FRAMEWORK
 
 <!-- AI.CONTEXT: KNOWLEDGE_STRUCTURE -->
+
 ### Security Domain Overview
 
 The R3d.hacker framework organizes cybersecurity knowledge into interconnected domains that build upon each other. This hierarchical structure helps guide learning progression from fundamental concepts to advanced techniques.
@@ -22,6 +67,7 @@ The R3d.hacker framework organizes cybersecurity knowledge into interconnected d
 ### Core Security Domains
 
 1. **Web Application Security**
+
    - Injection vulnerabilities (SQL, Command, etc.)
    - Cross-site scripting (XSS)
    - Cross-site request forgery (CSRF)
@@ -30,6 +76,7 @@ The R3d.hacker framework organizes cybersecurity knowledge into interconnected d
    - API security
 
 2. **Network Security**
+
    - Network architecture and protocols
    - Reconnaissance and scanning
    - Network traffic analysis
@@ -38,6 +85,7 @@ The R3d.hacker framework organizes cybersecurity knowledge into interconnected d
    - Firewall and IDS/IPS systems
 
 3. **System Security**
+
    - Operating system security
    - Privilege escalation
    - Memory corruption
@@ -55,6 +103,7 @@ The R3d.hacker framework organizes cybersecurity knowledge into interconnected d
 ### Supporting Knowledge Areas
 
 1. **Cryptography**
+
    - Cryptographic primitives
    - Encryption and decryption
    - Hashing and digital signatures
@@ -62,6 +111,7 @@ The R3d.hacker framework organizes cybersecurity knowledge into interconnected d
    - Cryptanalysis
 
 2. **Social Engineering**
+
    - Psychology of manipulation
    - Phishing techniques
    - Pretexting and impersonation
@@ -69,6 +119,7 @@ The R3d.hacker framework organizes cybersecurity knowledge into interconnected d
    - Social engineering countermeasures
 
 3. **Security Tools**
+
    - Penetration testing frameworks
    - Vulnerability scanners
    - Network analysis tools
@@ -87,18 +138,21 @@ The R3d.hacker framework organizes cybersecurity knowledge into interconnected d
 Knowledge progression follows a consistent pattern across all domains:
 
 1. **Fundamental Concepts** (n00b_mode)
+
    - Core terminology and basic principles
    - Understanding attack vectors
    - Simple tool usage
    - Basic security testing techniques
 
 2. **Standard Techniques** (script_kiddie_mode)
+
    - Common vulnerability types
    - Structured testing methodology
    - Standard tool usage
    - Documented attack patterns
 
 3. **Advanced Methodology** (hack3r_mode)
+
    - Comprehensive security assessment
    - Custom exploitation techniques
    - Advanced tool configuration
@@ -109,15 +163,18 @@ Knowledge progression follows a consistent pattern across all domains:
    - Protection system bypasses
    - Custom tool development
    - Zero-day vulnerability discovery
-<!-- AI.SECTION.END: KNOWLEDGE_FRAMEWORK -->
+   <!-- AI.SECTION.END: KNOWLEDGE_FRAMEWORK -->
 
 <!-- AI.SECTION.START: WEB_SECURITY -->
+
 ## WEB APPLICATION SECURITY
 
 <!-- AI.CONTEXT: WEB_SECURITY_KNOWLEDGE -->
+
 ### Web Security Fundamentals
 
 #### Core Concepts
+
 - HTTP protocol fundamentals
 - Web application architecture
 - Client-server communication
@@ -128,6 +185,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Common Vulnerabilities
 
 **Injection Vulnerabilities**
+
 - SQL Injection: Inserting malicious SQL to manipulate databases
 - Command Injection: Executing system commands through application inputs
 - LDAP Injection: Manipulating LDAP queries
@@ -135,18 +193,21 @@ Knowledge progression follows a consistent pattern across all domains:
 - Template Injection: Exploiting template rendering systems
 
 **Cross-Site Scripting (XSS)**
+
 - Reflected XSS: Non-persistent attacks via URL parameters
 - Stored XSS: Persistent attacks stored in the application
 - DOM-based XSS: Client-side JavaScript manipulation
 - XSS prevention techniques: Content sanitization, CSP, encoding
 
 **Cross-Site Request Forgery (CSRF)**
+
 - Attack methodology and impact
 - CSRF tokens and validation
 - SameSite cookies
 - Prevention techniques
 
 **Authentication Vulnerabilities**
+
 - Weak credential policies
 - Brute force attacks
 - Session management flaws
@@ -154,12 +215,14 @@ Knowledge progression follows a consistent pattern across all domains:
 - Multi-factor authentication vulnerabilities
 
 **Authorization Flaws**
+
 - Insecure direct object references
 - Missing function-level access control
 - Horizontal and vertical privilege escalation
 - JWT token vulnerabilities
 
 **API Security**
+
 - REST API vulnerabilities
 - GraphQL security issues
 - API authentication flaws
@@ -169,6 +232,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Advanced Web Security
 
 **Modern Web Application Vulnerabilities**
+
 - Single page application (SPA) security
 - WebSockets vulnerabilities
 - Server-side request forgery (SSRF)
@@ -176,6 +240,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Deserialization vulnerabilities
 
 **Security Headers and Configurations**
+
 - Content-Security-Policy
 - X-Content-Type-Options
 - X-Frame-Options
@@ -183,6 +248,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Referrer-Policy
 
 **Advanced Exploitation Techniques**
+
 - DOM clobbering
 - Prototype pollution
 - CSS injection
@@ -191,12 +257,15 @@ Knowledge progression follows a consistent pattern across all domains:
 <!-- AI.SECTION.END: WEB_SECURITY -->
 
 <!-- AI.SECTION.START: NETWORK_SECURITY -->
+
 ## NETWORK SECURITY
 
 <!-- AI.CONTEXT: NETWORK_SECURITY_KNOWLEDGE -->
+
 ### Network Security Fundamentals
 
 #### Core Concepts
+
 - Network protocols and OSI model
 - IP addressing and subnetting
 - Routing and switching fundamentals
@@ -207,6 +276,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Common Attack Vectors
 
 **Reconnaissance Techniques**
+
 - Open-source intelligence gathering
 - DNS enumeration
 - Port scanning and service identification
@@ -215,6 +285,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - OS fingerprinting
 
 **Man-in-the-Middle Attacks**
+
 - ARP poisoning
 - DNS spoofing
 - SSL/TLS interception
@@ -222,6 +293,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - DHCP spoofing
 
 **Network Traffic Analysis**
+
 - Packet analysis with Wireshark
 - Protocol analysis
 - Network flow monitoring
@@ -229,6 +301,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Encrypted traffic analysis
 
 **Wireless Security**
+
 - WiFi encryption protocols (WEP, WPA, WPA2, WPA3)
 - Wireless network attacks
 - Rogue access points
@@ -238,6 +311,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Advanced Network Security
 
 **Infrastructure Attacks**
+
 - VLAN hopping
 - Switch and router attacks
 - BGP hijacking
@@ -245,6 +319,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Network function virtualization (NFV) security
 
 **Evasion Techniques**
+
 - IDS/IPS evasion
 - Packet fragmentation
 - Traffic encoding
@@ -252,6 +327,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Tunneling techniques
 
 **Advanced Persistent Threats**
+
 - Command and control (C2) infrastructure
 - Data exfiltration techniques
 - Covert communication channels
@@ -259,6 +335,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Persistence mechanisms
 
 **Network Defense Bypass**
+
 - Firewall rule bypass
 - Application layer gateway evasion
 - Deep packet inspection circumvention
@@ -267,12 +344,15 @@ Knowledge progression follows a consistent pattern across all domains:
 <!-- AI.SECTION.END: NETWORK_SECURITY -->
 
 <!-- AI.SECTION.START: SYSTEM_SECURITY -->
+
 ## SYSTEM SECURITY
 
 <!-- AI.CONTEXT: SYSTEM_SECURITY_KNOWLEDGE -->
+
 ### System Security Fundamentals
 
 #### Core Concepts
+
 - Operating system architecture
 - Process and memory management
 - File system security
@@ -283,6 +363,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Common Attack Vectors
 
 **Privilege Escalation**
+
 - Local privilege escalation techniques
 - Kernel vulnerabilities
 - Misconfigured permissions
@@ -291,6 +372,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - UAC bypass (Windows)
 
 **Memory Corruption**
+
 - Buffer overflows
 - Format string vulnerabilities
 - Use-after-free vulnerabilities
@@ -299,6 +381,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Exploitation primitives
 
 **Password Attacks**
+
 - Password cracking techniques
 - Dictionary and brute force attacks
 - Rainbow tables
@@ -307,6 +390,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Password spraying
 
 **Malware Techniques**
+
 - Malware types and classification
 - Malware delivery mechanisms
 - Persistence techniques
@@ -317,6 +401,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Advanced System Security
 
 **Reverse Engineering**
+
 - Static analysis techniques
 - Dynamic analysis and debugging
 - Disassembly and decompilation
@@ -325,6 +410,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Firmware analysis
 
 **Advanced Exploitation**
+
 - Return-oriented programming (ROP)
 - Jump-oriented programming (JOP)
 - Heap exploitation techniques
@@ -333,6 +419,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Data-oriented programming
 
 **Defense Bypass Techniques**
+
 - Address space layout randomization (ASLR) bypass
 - Data execution prevention (DEP) bypass
 - Stack canary bypass
@@ -342,12 +429,15 @@ Knowledge progression follows a consistent pattern across all domains:
 <!-- AI.SECTION.END: SYSTEM_SECURITY -->
 
 <!-- AI.SECTION.START: MOBILE_SECURITY -->
+
 ## MOBILE SECURITY
 
 <!-- AI.CONTEXT: MOBILE_SECURITY_KNOWLEDGE -->
+
 ### Mobile Security Fundamentals
 
 #### Core Concepts
+
 - Mobile operating system architecture
 - App sandboxing and permissions
 - Mobile app development frameworks
@@ -358,6 +448,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Common Attack Vectors
 
 **Android Security**
+
 - Android security architecture
 - APK structure and analysis
 - Android permission model
@@ -366,6 +457,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - WebView vulnerabilities
 
 **iOS Security**
+
 - iOS security architecture
 - IPA structure and analysis
 - App Store security review
@@ -374,6 +466,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - App extension security
 
 **Mobile Application Analysis**
+
 - Static analysis techniques
 - Dynamic analysis and instrumentation
 - App binary analysis
@@ -382,6 +475,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Authentication and session handling
 
 **Mobile API Security**
+
 - Mobile API authentication
 - Mobile API authorization
 - API endpoint security
@@ -392,6 +486,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Advanced Mobile Security
 
 **Mobile Reverse Engineering**
+
 - Decompilation techniques
 - Bytecode analysis
 - Native code analysis
@@ -400,6 +495,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Debugging and hooking
 
 **Advanced Mobile Exploitation**
+
 - Jailbreak/root detection bypass
 - Certificate pinning bypass
 - Runtime manipulation
@@ -408,6 +504,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Custom exploitation development
 
 **Mobile Defense Bypass**
+
 - Secure boot bypass
 - Code signing bypass
 - App sandbox escape
@@ -417,12 +514,15 @@ Knowledge progression follows a consistent pattern across all domains:
 <!-- AI.SECTION.END: MOBILE_SECURITY -->
 
 <!-- AI.SECTION.START: CRYPTOGRAPHY -->
+
 ## CRYPTOGRAPHY
 
 <!-- AI.CONTEXT: CRYPTOGRAPHY_KNOWLEDGE -->
+
 ### Cryptography Fundamentals
 
 #### Core Concepts
+
 - Symmetric encryption
 - Asymmetric encryption
 - Cryptographic hashing
@@ -433,6 +533,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Common Cryptographic Systems
 
 **Symmetric Encryption**
+
 - Block ciphers (AES, DES, 3DES)
 - Stream ciphers (RC4, ChaCha20)
 - Block cipher modes (ECB, CBC, CTR, GCM)
@@ -441,6 +542,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Key management
 
 **Asymmetric Encryption**
+
 - RSA encryption and signature
 - Elliptic curve cryptography (ECC)
 - Diffie-Hellman key exchange
@@ -449,6 +551,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Quantum-resistant algorithms
 
 **Cryptographic Hash Functions**
+
 - SHA family (SHA-256, SHA-3)
 - HMAC construction
 - Password hashing (bcrypt, Argon2)
@@ -457,6 +560,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Preimage resistance
 
 **Public Key Infrastructure**
+
 - X.509 certificates
 - Certificate authorities
 - Web of trust
@@ -467,6 +571,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Advanced Cryptography
 
 **Cryptanalysis Techniques**
+
 - Side-channel attacks
 - Timing attacks
 - Power analysis
@@ -475,6 +580,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Birthday attacks
 
 **Implementation Vulnerabilities**
+
 - Padding oracle attacks
 - Bleichenbacher attacks
 - Length extension attacks
@@ -483,6 +589,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Cryptographic protocol flaws
 
 **Advanced Cryptographic Protocols**
+
 - Zero-knowledge proofs
 - Secure multi-party computation
 - Homomorphic encryption
@@ -492,12 +599,15 @@ Knowledge progression follows a consistent pattern across all domains:
 <!-- AI.SECTION.END: CRYPTOGRAPHY -->
 
 <!-- AI.SECTION.START: SOCIAL_ENGINEERING -->
+
 ## SOCIAL ENGINEERING
 
 <!-- AI.CONTEXT: SOCIAL_ENGINEERING_KNOWLEDGE -->
+
 ### Social Engineering Fundamentals
 
 #### Core Concepts
+
 - Psychology of manipulation
 - Cognitive biases in security
 - Trust establishment
@@ -508,6 +618,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Common Attack Vectors
 
 **Phishing Techniques**
+
 - Spear phishing
 - Whaling (executive targeting)
 - Clone phishing
@@ -516,6 +627,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Website spoofing
 
 **Pretexting and Impersonation**
+
 - Creating convincing scenarios
 - Authority impersonation
 - Help desk impersonation
@@ -524,6 +636,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - New employee pretext
 
 **Physical Social Engineering**
+
 - Tailgating
 - Baiting
 - Shoulder surfing
@@ -532,6 +645,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Physical security bypass
 
 **Manipulation Tactics**
+
 - Reciprocity exploitation
 - Commitment and consistency pressure
 - Social proof manipulation
@@ -542,6 +656,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Advanced Social Engineering
 
 **Advanced Attack Chains**
+
 - Multi-phase social engineering
 - Hybrid technical/social attacks
 - Long-term engagement strategies
@@ -550,6 +665,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Supply chain social engineering
 
 **Defense Bypass Techniques**
+
 - Security awareness training evasion
 - Technical control circumvention
 - Procedural control manipulation
@@ -558,6 +674,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Social dynamics manipulation
 
 **Countermeasures and Defenses**
+
 - Security awareness training
 - Verification procedures
 - Out-of-band confirmation
@@ -567,12 +684,15 @@ Knowledge progression follows a consistent pattern across all domains:
 <!-- AI.SECTION.END: SOCIAL_ENGINEERING -->
 
 <!-- AI.SECTION.START: SECURITY_TOOLS -->
+
 ## SECURITY TOOLS
 
 <!-- AI.CONTEXT: SECURITY_TOOLS_KNOWLEDGE -->
+
 ### Security Tool Categories
 
 #### Core Tool Types
+
 - Vulnerability scanners
 - Penetration testing frameworks
 - Network analysis tools
@@ -583,6 +703,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Common Security Tools
 
 **Penetration Testing Frameworks**
+
 - Metasploit Framework
 - Core capabilities and architecture
 - Module system and exploit development
@@ -591,6 +712,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Advanced usage techniques
 
 **Vulnerability Scanners**
+
 - Nessus
 - OpenVAS
 - Qualys
@@ -599,6 +721,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Result interpretation and validation
 
 **Web Application Security Tools**
+
 - Burp Suite
 - OWASP ZAP
 - Nikto
@@ -607,6 +730,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Advanced testing techniques
 
 **Network Analysis Tools**
+
 - Wireshark
 - Nmap
 - Tcpdump
@@ -617,6 +741,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Advanced Security Tools
 
 **Custom Tool Development**
+
 - Exploit development frameworks
 - Python for security testing
 - Go for security tools
@@ -625,6 +750,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Custom payload generation
 
 **Advanced Security Frameworks**
+
 - Cobalt Strike
 - Empire and PowerShell frameworks
 - Custom C2 infrastructure
@@ -633,6 +759,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Advanced persistence tools
 
 **Security Automation**
+
 - CI/CD security integration
 - Security orchestration
 - Automated vulnerability assessment
@@ -642,12 +769,15 @@ Knowledge progression follows a consistent pattern across all domains:
 <!-- AI.SECTION.END: SECURITY_TOOLS -->
 
 <!-- AI.SECTION.START: SECURITY_METHODOLOGIES -->
+
 ## SECURITY METHODOLOGIES
 
 <!-- AI.CONTEXT: SECURITY_METHODOLOGIES_KNOWLEDGE -->
+
 ### Security Assessment Methodologies
 
 #### Core Methodologies
+
 - Ethical hacking methodology
 - Penetration testing frameworks
 - Vulnerability assessment process
@@ -658,6 +788,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Common Assessment Approaches
 
 **Penetration Testing Methodologies**
+
 - Information gathering
 - Threat modeling
 - Vulnerability analysis
@@ -667,6 +798,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Remediation verification
 
 **OWASP Testing Framework**
+
 - Information gathering
 - Configuration management
 - Identity management
@@ -680,6 +812,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Client-side testing
 
 **Network Security Assessment**
+
 - Network discovery
 - Network mapping
 - Vulnerability identification
@@ -692,6 +825,7 @@ Knowledge progression follows a consistent pattern across all domains:
 #### Advanced Security Methodologies
 
 **Red Team Operations**
+
 - Adversary emulation
 - MITRE ATT&CK framework alignment
 - Covert operational security
@@ -702,6 +836,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Realistic attack simulation
 
 **Zero-Day Research Methodology**
+
 - Target identification
 - Attack surface mapping
 - Vulnerability discovery techniques
@@ -711,6 +846,7 @@ Knowledge progression follows a consistent pattern across all domains:
 - Security advisory creation
 
 **Threat-Informed Defense**
+
 - Threat intelligence integration
 - Adversary emulation planning
 - Purple team exercises

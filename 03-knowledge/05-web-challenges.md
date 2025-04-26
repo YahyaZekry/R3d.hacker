@@ -2,22 +2,65 @@
 <!-- AI.METADATA
 component: web_challenges
 version: 1.0
-last_updated: 2025
+last_updated: 26/04/2025
 framework_type: ethical_hacking_mentor
 language: en
 parent: r3d_hacker_framework
-path: modes/web-challenges
+path: knowledge/web-challenges
+references: [mode_framework, challenge_library, security_domains]
+ai_optimization: [knowledge_graph, parameter_network, computational_index]
+complexity_level: 4
+context_sensitivity: high
 -->
+
+<!-- AI.OPTIMIZATION.START -->
+
+## Knowledge Graph Access
+
+- Challenge Components:
+  - frameworks: {nodes: ["structure", "difficulty", "progression"]}
+  - categories: {nodes: ["sql_injection", "xss", "auth_bypass", "api_security"]}
+  - adaptations: {nodes: ["mode_specific", "skill_level", "complexity"]}
+
+## Parameter Network
+
+- Challenge Dependencies:
+  - skill_level -> challenge_selection
+  - mode_context -> guidance_level
+  - topic_area -> challenge_type
+  - learner_progress -> difficulty_adjustment
+
+## Computational Indices
+
+- Challenge Paths:
+  - sql_injection: basic -> extraction -> blind -> waf_bypass
+  - xss: alert -> filter_bypass -> stored -> dom_based
+  - auth: cookie -> jwt -> oauth -> sso
+  - api: discovery -> fuzzing -> graphql -> microservices
+
+## Context Sensitivity
+
+- Adaptation Points:
+  - Challenge Selection:
+    - User Skill Level
+    - Previous Completion
+    - Learning Style
+    - Mode Context
+  - Content Adaptation: - Guidance Detail - Hint Availability - Technical Depth - Tool Requirements
+  <!-- AI.OPTIMIZATION.END -->
 
 # R3D.HACKER WEB APPLICATION SECURITY CHALLENGES
 
 <!-- AI.SECTION.START: CHALLENGE_FRAMEWORKS -->
+
 ## CHALLENGE FRAMEWORKS
 
 <!-- AI.CONTEXT: CHALLENGE_TYPES -->
+
 ### Web Challenge Structure Templates
 
 #### n00b_mode Challenge Template
+
 ```
 BEGINNER CHALLENGE: [Simple Title]
 
@@ -42,6 +85,7 @@ LEARNING OUTCOME:
 ```
 
 #### script_kiddie_mode Challenge Template
+
 ```
 TOOL PRACTICE CHALLENGE: [Descriptive Title]
 
@@ -69,6 +113,7 @@ LEARNING OUTCOME:
 ```
 
 #### hack3r_mode Challenge Template
+
 ```
 SECURITY CHALLENGE: [Professional Title]
 
@@ -95,6 +140,7 @@ LEARNING OUTCOME:
 ```
 
 #### elit3_mode Challenge Template
+
 ```
 ADV4NCED H4CKING CH4LLENGE: [Technical Title]
 
@@ -115,15 +161,19 @@ H1NTS: Limited hints available only for critical roadblocks
 L3ARNING OUTCOME:
 [Advanced security techniques and creative problem-solving]
 ```
+
 <!-- AI.SECTION.END: CHALLENGE_FRAMEWORKS -->
 
 <!-- AI.SECTION.START: SQL_INJECTION_CHALLENGES -->
+
 ## SQL INJECTION CHALLENGES
 
 <!-- AI.CONTEXT: SQL_INJECTION -->
+
 ### SQL Injection Challenges
 
 #### n00b_mode: "First Injection"
+
 ```
 BEGINNER CHALLENGE: First SQL Injection
 
@@ -156,6 +206,7 @@ Understanding basic SQL injection and how improper input handling can bypass aut
 ```
 
 #### script_kiddie_mode: "Data Extraction"
+
 ```
 TOOL PRACTICE CHALLENGE: SQL Injection Data Extraction
 
@@ -187,6 +238,7 @@ Practical SQL injection exploitation skills and structured data extraction techn
 ```
 
 #### hack3r_mode: "Blind SQL Injection"
+
 ```
 SECURITY CHALLENGE: Blind SQL Injection Exploitation
 
@@ -213,6 +265,7 @@ Advanced SQL injection methodology, boolean-based blind exploitation, and system
 ```
 
 #### elit3_mode: "WAF Bypass"
+
 ```
 ADV4NCED H4CKING CH4LLENGE: SQL 1njection WAF Byp4ss
 
@@ -238,15 +291,19 @@ H1NTS: Limited hints available only for critical roadblocks
 L3ARNING OUTCOME:
 Advanced WAF bypass techniques, Oracle-specific SQL injection, and sophisticated exploitation methodology.
 ```
+
 <!-- AI.SECTION.END: SQL_INJECTION_CHALLENGES -->
 
 <!-- AI.SECTION.START: XSS_CHALLENGES -->
+
 ## CROSS-SITE SCRIPTING CHALLENGES
 
 <!-- AI.CONTEXT: XSS -->
+
 ### Cross-Site Scripting Challenges
 
 #### n00b_mode: "Hello Alert"
+
 ```
 BEGINNER CHALLENGE: Hello Alert XSS
 
@@ -278,6 +335,7 @@ Understanding basic Cross-Site Scripting and how it allows injecting code into w
 ```
 
 #### script_kiddie_mode: "Filtered XSS"
+
 ```
 TOOL PRACTICE CHALLENGE: Bypassing Basic XSS Filters
 
@@ -307,6 +365,7 @@ XSS filter bypass techniques and alternative JavaScript execution vectors.
 ```
 
 #### hack3r_mode: "Stored XSS Attack Chain"
+
 ```
 SECURITY CHALLENGE: Stored XSS Attack Chain
 
@@ -334,6 +393,7 @@ Advanced XSS payload development, understanding security implications of stored 
 ```
 
 #### elit3_mode: "DOM-Based XSS"
+
 ```
 ADV4NCED H4CKING CH4LLENGE: D0M-Based XSS in SPA
 
@@ -359,15 +419,19 @@ H1NTS: Limited hints available only for critical roadblocks
 L3ARNING OUTCOME:
 Advanced DOM-based XSS, CSP bypass techniques, and security vulnerabilities in modern JavaScript frameworks.
 ```
+
 <!-- AI.SECTION.END: XSS_CHALLENGES -->
 
 <!-- AI.SECTION.START: AUTH_CHALLENGES -->
+
 ## AUTHENTICATION BYPASS CHALLENGES
 
 <!-- AI.CONTEXT: AUTH_BYPASS -->
+
 ### Authentication Bypass Challenges
 
 #### n00b_mode: "Remember Me"
+
 ```
 BEGINNER CHALLENGE: Remember Me Bypass
 
@@ -401,6 +465,7 @@ Understanding cookie-based authentication and the risks of insecure cookie imple
 ```
 
 #### script_kiddie_mode: "JWT Token Tampering"
+
 ```
 TOOL PRACTICE CHALLENGE: JWT Token Manipulation
 
@@ -432,6 +497,7 @@ Understanding JWT structure, common JWT security flaws, and token tampering tech
 ```
 
 #### hack3r_mode: "OAuth Flow Exploitation"
+
 ```
 SECURITY CHALLENGE: OAuth Authentication Bypass
 
@@ -460,6 +526,7 @@ OAuth 2.0 security vulnerabilities, authentication flow analysis, and secure imp
 ```
 
 #### elit3_mode: "SSO Security Assessment"
+
 ```
 ADV4NCED H4CKING CH4LLENGE: Ent3rprise SSO Byp4ss
 
@@ -486,15 +553,19 @@ H1NTS: Limited hints available only for critical roadblocks
 L3ARNING OUTCOME:
 Advanced SSO security assessment methodology, SAML 2.0 exploitation techniques, and enterprise authentication security.
 ```
+
 <!-- AI.SECTION.END: AUTH_CHALLENGES -->
 
 <!-- AI.SECTION.START: API_CHALLENGES -->
+
 ## API SECURITY CHALLENGES
 
 <!-- AI.CONTEXT: API_SECURITY -->
+
 ### API Security Challenges
 
 #### n00b_mode: "API Discovery"
+
 ```
 BEGINNER CHALLENGE: API Endpoint Discovery
 
@@ -528,6 +599,7 @@ Basic API endpoint discovery and understanding how modern web applications commu
 ```
 
 #### script_kiddie_mode: "API Parameter Fuzzing"
+
 ```
 TOOL PRACTICE CHALLENGE: API Parameter Fuzzing
 
@@ -559,6 +631,7 @@ API fuzzing methodology, parameter manipulation techniques, and identifying comm
 ```
 
 #### hack3r_mode: "GraphQL Security Assessment"
+
 ```
 SECURITY CHALLENGE: GraphQL API Security Assessment
 
@@ -587,6 +660,7 @@ GraphQL security assessment methodology, common GraphQL vulnerabilities, and sec
 ```
 
 #### elit3_mode: "Chained API Exploitation"
+
 ```
 ADV4NCED H4CKING CH4LLENGE: API S3curity Ch4in Exploitati0n
 
@@ -614,4 +688,5 @@ H1NTS: Limited hints available only for critical roadblocks
 L3ARNING OUTCOME:
 Advanced API security assessment, vulnerability chaining techniques, microservice security architecture, and sophisticated exploitation methodology.
 ```
+
 <!-- AI.SECTION.END: API_CHALLENGES -->
